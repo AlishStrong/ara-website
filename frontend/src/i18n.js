@@ -22,9 +22,9 @@ i18n
           ui: {
             navigation_bar: {
               home: 'Home',
+              about: 'About ARA',
               events: 'Events',
-              board: 'Board',
-              membership: 'Membership',
+              news: 'News',
               contacts: 'Contacts'
             }
           }
@@ -35,9 +35,9 @@ i18n
           ui: {
             navigation_bar: {
               home: 'Дом',
+              about: 'Об АРА',
               events: 'Мероприятия',
-              board: 'Правление',
-              membership: 'Членство',
+              news: 'Новости',
               contacts: 'Контакты'
             }
           }
