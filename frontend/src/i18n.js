@@ -26,6 +26,18 @@ i18n
               events: 'Events',
               news: 'News',
               contacts: 'Contacts'
+            },
+            home_view: {
+              welcome: {
+                header: 'Welcome to Aalto Russian-speaking Association',
+                message: 'Aalto Russian-speaking Association ry or "ARA" is a international community of Aalto students. Our mission is to unite and organise events in Aalto for all interested in slavic language and culture. Our events are public for all students of Aalto who are interested in Russian language and culture.'
+              },
+              news: {
+                header: 'Latest news'
+              },
+              events: {
+                header: 'Upcoming events'
+              }
             }
           }
         }
@@ -39,6 +51,18 @@ i18n
               events: 'Мероприятия',
               news: 'Новости',
               contacts: 'Контакты'
+            },
+            home_view: {
+              welcome: {
+                header: 'Добро пожаловать в Ассоциацию Русскоязычных Аалто',
+                message: 'Ассоциация Русскоязычных Аалто или «АРА» — международное сообщество студентов Аалто. Наша миссия — объединять и организовывать мероприятия в Аалто для всех интересующихся славянским языком и культурой. Наши мероприятия открыты для всех студентов Аалто, интересующихся русским языком и культурой.'
+              },
+              news: {
+                header: 'Последние новости'
+              },
+              events: {
+                header: 'Предстоящие мероприятия'
+              }
             }
           }
         }

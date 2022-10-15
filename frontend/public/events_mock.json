@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "titleEn": "ARA Literature Club",
+    "titleRu": "Книжный клуб АРА",
+    "descriptionEn": "Dear friends! This autumn, ARA is planning to organize a literature club for every member and friend of our association 📚 The idea of the club is to maintain and practise Russian language skills, meet new people, and hang out in a cozy atmosphere.",
+    "descriptionRu": "Друзья! С этой осени АРА планирует организовать книжный клуб для всех членов и друзей АРА 📚 Идеей клуба является поддержка и изучение русского языка, а также общение и знакомство в уютной атмосфере.",
+    "date": 1666461600000
+  },
+  {
+    "id": 2,
+    "titleEn": "ARA Halloween party",
+    "titleRu": "АРА Хеллоуин",
+    "descriptionEn": "The Halloween season is on, and thus it is time for ARA Halloween party! 🎃 Dear friends, we are happy to inform you about the first ARA hangout event of the academic year!",
+    "descriptionRu": "Сезон Хеллоуина открыт, а значит, время для Хеллоуин-ивента АРА! 🎃 Друзья, мы рады сообщить вам о первом развлекательном ивенте АРА в новом учебном году!",
+    "date": 1666976400000
+  }
+]
