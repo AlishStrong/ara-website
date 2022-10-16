@@ -18,7 +18,7 @@ const NavigationBar = () => {
         </Link>
       </div>
       <nav id='navigation-tabs' className='flex space-x-10'>
-        <NavLink id='home-tab' to='/' className="text-base font-medium text-black hover:text-blue">{t('ui.navigation_bar.home')}</NavLink>
+        <NavLink id='home-tab' to='/' className="text-base font-medium text-black hover:text-blue" end>{t('ui.navigation_bar.home')}</NavLink>
         <NavLink id='about-tab' to='/about' className="text-base font-medium text-black hover:text-blue">{t('ui.navigation_bar.about')}</NavLink>
         <NavLink id='events-tab' to='/events' className="text-base font-medium text-black hover:text-blue">{t('ui.navigation_bar.events')}</NavLink>
         <NavLink id='news-tab' to='/news' className="text-base font-medium text-black hover:text-blue">{t('ui.navigation_bar.news')}</NavLink>

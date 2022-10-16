@@ -1,0 +1,3 @@
+#about-sidebar .active {
+  @apply bg-green cursor-default;
+}

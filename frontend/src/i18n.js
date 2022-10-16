@@ -38,6 +38,13 @@ i18n
               events: {
                 header: 'Upcoming events'
               }
+            },
+            about_view: {
+              sidebar: {
+                about: 'About ARA',
+                board: 'The board',
+                documents: 'Documents'
+              }
             }
           }
         }
@@ -62,6 +69,13 @@ i18n
               },
               events: {
                 header: 'Предстоящие мероприятия'
+              }
+            },
+            about_view: {
+              sidebar: {
+                about: 'Об АРА',
+                board: 'Правление',
+                documents: 'Документы'
               }
             }
           }
