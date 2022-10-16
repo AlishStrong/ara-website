@@ -42,9 +42,10 @@ i18n
             about_view: {
               sidebar: {
                 about: 'About ARA',
-                board: 'The board',
+                board: 'Board members',
                 documents: 'Documents'
-              }
+              },
+              about_ara: 'Aalto Russian-speaking Association ry or "ARA" is a international community of Aalto students. Our mission is to unite and organise events in Aalto for all interested in slavic language and culture. Our events are public for all students of Aalto who are interested in Russian language and culture. ARA started in late fall of 2020 with a telegram chat at t.me/aaltorussian. Chat is public and we encourage all interested to join!'
             }
           }
         }
@@ -74,9 +75,10 @@ i18n
             about_view: {
               sidebar: {
                 about: 'Об АРА',
-                board: 'Правление',
+                board: 'Члены правления',
                 documents: 'Документы'
-              }
+              },
+              about_ara: 'Ассоциация Русскоязычных Аалто или «АРА» — международное сообщество студентов Аалто. Наша миссия — объединять и организовывать мероприятия в Аалто для всех интересующихся славянским языком и культурой. Наши мероприятия открыты для всех студентов Аалто, интересующихся русским языком и культурой. ARA стартовала поздней осенью 2020 года с телеграм-чата на t.me/aaltorussian. Чат является общедоступным, и мы призываем всех желающих присоединиться!'
             }
           }
         }
