@@ -5,6 +5,7 @@ import NavigationBar from './components/NavigationBar';
 import AboutAraView from './views/about/AboutAra.view';
 import BoardView from './views/about/Board.view';
 import DocumentsView from './views/about/Documents.view';
+import MembershipView from './views/about/Membership.view';
 import ContactsView from './views/Contacts.view';
 import EventView from './views/Event.view';
 import EventsView from './views/Events.view';
@@ -20,6 +21,7 @@ const App = () => {
           <Route index element={<HomeView />}></Route>
           <Route path='about' element={<AboutLayout />}>
             <Route index element={<AboutAraView />}></Route>
+            <Route path='membership' element={<MembershipView />}></Route>
             <Route path='board' element={<BoardView />}></Route>
             <Route path='documents' element={<DocumentsView />}></Route>
           </Route>

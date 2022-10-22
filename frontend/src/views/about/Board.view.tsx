@@ -18,7 +18,7 @@ const BoardView = () => {
 
   return (
     <div className='grid grid-cols-1'>
-      <div id='intro' className='p-4'>
+      <div id='intro'>
         <img src={boardImg} className='max-w-[16em] float-left mr-4'></img>
         <h2 className='font-bold'>{t('ui.about_view.sidebar.board')}</h2>
         <p>{t('ui.about_view.board_info')}</p>
