@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "ara-website-9adf7"
+  },
+  "targets": {
+    "ara-website-9adf7": {
+      "hosting": {
+        "frontend": [
+          "ara-frontend"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
