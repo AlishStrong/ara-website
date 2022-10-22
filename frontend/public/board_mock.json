@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "titleEn": "Chairman of the board",
+    "nameEn": "Alisher Aliev",
+    "titleRu": "Председатель правления",
+    "nameRu": "Алишер Алиев"
+  },
+  {
+    "id": 2,
+    "titleEn": "Vice Chairman",
+    "nameEn": "Maria Ushakova",
+    "titleRu": "Вице-председатель",
+    "nameRu": "Мария Ушакова"
+  },
+  {
+    "id": 3,
+    "titleEn": "Secretary",
+    "nameEn": "Kirill Tervo-Ridor",
+    "titleRu": "Секретарь",
+    "nameRu": "Кирилл Терво-Ридор"
+  },
+  {
+    "id": 4,
+    "titleEn": "Treasurer",
+    "nameEn": "Ville Ahokas",
+    "titleRu": "Казначей",
+    "nameRu": "Вилле Ахокас"
+  },
+  {
+    "id": 5,
+    "titleEn": "External relations manager",
+    "nameEn": "Maria Pikhtina",
+    "titleRu": "Менеджер по внешним связям",
+    "nameRu": "Мария Пихтина"
+  },
+  {
+    "id": 6,
+    "titleEn": "Community communications manager",
+    "nameEn": "Nazar Kokaurov",
+    "titleRu": "Менеджер по связям с общественностью",
+    "nameRu": "Назар Кокауров"
+  },
+  {
+    "id": 7,
+    "titleEn": "Event manager",
+    "nameEn": "Arina Värä",
+    "titleRu": "Менеджер по мероприятиям",
+    "nameRu": "Арина Вара"
+  },
+  {
+    "id": 8,
+    "titleEn": "Event manager",
+    "nameEn": "Alexander Popov",
+    "titleRu": "Менеджер по мероприятиям",
+    "nameRu": "Александр Попов"
+  },
+  {
+    "id": 9,
+    "titleEn": "Event manager",
+    "nameEn": "Igor Oinonen",
+    "titleRu": "Менеджер по мероприятиям",
+    "nameRu": "Игорь Ойнонен"
+  },
+  {
+    "id": 10,
+    "titleEn": "IT manager",
+    "nameEn": "Mikhail Raskhodchikov",
+    "titleRu": "ИТ-менеджер",
+    "nameRu": "Михаил Расходчиков"
+  },
+  {
+    "id": 11,
+    "titleEn": "Social Media Manager",
+    "nameEn": "Victor Petrov",
+    "titleRu": "Менеджер по социальным сетям",
+    "nameRu": "Виктор Петров"
+  }
+]

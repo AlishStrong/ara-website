@@ -2,14 +2,14 @@ import { BrowserRouter as Router, Outlet, Route, Routes, Navigate } from 'react-
 import './App.css';
 import AboutSidebar from './components/AboutSidebar';
 import NavigationBar from './components/NavigationBar';
-import AboutAra from './views/about/AboutAra.view';
-import Board from './views/about/Board.view';
-import Documents from './views/about/Documents.view';
-import Contacts from './views/Contacts.view';
+import AboutAraView from './views/about/AboutAra.view';
+import BoardView from './views/about/Board.view';
+import DocumentsView from './views/about/Documents.view';
+import ContactsView from './views/Contacts.view';
 import EventView from './views/Event.view';
-import Events from './views/Events.view';
-import Home from './views/Home.view';
-import News from './views/News.view';
+import EventsView from './views/Events.view';
+import HomeView from './views/Home.view';
+import NewsView from './views/News.view';
 
 const App = () => {
 
@@ -17,16 +17,16 @@ const App = () => {
     <Router>
       <Routes>
         <Route path='/' element={<MainLayout />}>
-          <Route index element={<Home />}></Route>
+          <Route index element={<HomeView />}></Route>
           <Route path='about' element={<AboutLayout />}>
-            <Route index element={<AboutAra />}></Route>
-            <Route path='board' element={<Board />}></Route>
-            <Route path='documents' element={<Documents />}></Route>
+            <Route index element={<AboutAraView />}></Route>
+            <Route path='board' element={<BoardView />}></Route>
+            <Route path='documents' element={<DocumentsView />}></Route>
           </Route>
-          <Route path='events' element={<Events />}></Route>
+          <Route path='events' element={<EventsView />}></Route>
           <Route path='events/:eventId' element={<EventView />}></Route>
-          <Route path='news' element={<News />}></Route>
-          <Route path='contacts' element={<Contacts />}></Route>
+          <Route path='news' element={<NewsView />}></Route>
+          <Route path='contacts' element={<ContactsView />}></Route>
           <Route path='*' element={<Navigate to={'/'} replace={true} />}></Route>
         </Route>
       </Routes>

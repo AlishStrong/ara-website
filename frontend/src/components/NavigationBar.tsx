@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import logo from '../logo.jpg';
+import logo from '../assets/logo.jpg';
 import { NavLink, Link } from 'react-router-dom';
 
 const NavigationBar = () => {

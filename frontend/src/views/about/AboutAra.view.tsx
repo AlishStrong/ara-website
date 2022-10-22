@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import logo from '../../logo_full.webp';
+import logo from '../../assets/logo_full.webp';
 
-const AboutAra = () => {
+const AboutAraView = () => {
   const { t } = useTranslation();
 
   return (
@@ -13,4 +13,4 @@ const AboutAra = () => {
   );
 };
 
-export default AboutAra;
+export default AboutAraView;

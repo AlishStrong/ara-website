@@ -1,3 +1,3 @@
-const Contacts = () => <div>Contacts view</div>;
+const ContactsView = () => <div>Contacts view</div>;
 
-export default Contacts;
+export default ContactsView;

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Event, EventClass, EventJson } from '../models/Event.model';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const HomeView = () => {
   const [events, setEvents] = useState<Event[]>([]);
 
   const { t, i18n } = useTranslation();
@@ -61,4 +61,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeView;

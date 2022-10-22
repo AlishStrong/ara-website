@@ -1,3 +1,3 @@
-const Events = () => <div>Events view</div>;
+const EventsView = () => <div>Events view</div>;
 
-export default Events;
+export default EventsView;

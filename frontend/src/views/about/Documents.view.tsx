@@ -1,7 +1,7 @@
-const Documents = () => {
+const DocumentsView = () => {
   return (
     <div>Documents</div>
   );
 };
 
-export default Documents;
+export default DocumentsView;
