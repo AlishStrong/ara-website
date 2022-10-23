@@ -1,0 +1,22 @@
+#navigation-tabs .active, .active:hover {
+  @apply bg-yellow cursor-default text-black;
+}
+
+#mobile-menu .active, .active:hover {
+  @apply bg-yellow cursor-default text-black;
+}
+
+#mobile-menu {
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+
+  100% {
+      transform: scaleY(1)
+  }
+}
