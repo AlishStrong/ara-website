@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Outlet, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import AboutSidebar from './components/AboutSidebar';
+import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import AboutAraView from './views/about/AboutAra.view';
 import BoardView from './views/about/Board.view';
@@ -37,14 +38,17 @@ const App = () => {
 };
 
 const MainLayout = () => (
-  <div className='h-screen max-w-5xl mx-auto'>
+  <div className='min-h-screen max-w-5xl mx-auto flex flex-col'>
     <NavigationBar />
-    <Outlet />
+    <div className='mb-4'>
+      <Outlet />
+    </div>
+    <Footer />
   </div>
 );
 
 const AboutLayout = () => (
-  <div id='about-view' className='grid grid-cols-4 gap-4 px-6'>
+  <div id='about-view' className='grid grid-cols-4 gap-4 px-6 mb/4'>
     <AboutSidebar />
     <div id='about-content' className='p-4 rounded-lg shadow col-span-3'>
       <Outlet />

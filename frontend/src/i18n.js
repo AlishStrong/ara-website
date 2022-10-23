@@ -27,6 +27,15 @@ i18n
               news: 'News',
               contacts: 'Contacts'
             },
+            footer: {
+              registry: 'Registration ID',
+              contact: 'Find us on:',
+              links: {
+                title: 'Useful links:',
+                uni: 'Aalto University',
+                ayy: 'Aalto University Student Union'
+              }
+            },
             home_view: {
               welcome: {
                 header: 'Welcome to Aalto Russian-speaking Association',
@@ -66,6 +75,15 @@ i18n
               events: 'Мероприятия',
               news: 'Новости',
               contacts: 'Контакты'
+            },
+            footer: {
+              registry: 'Регистрационный номер',
+              contact: 'Мы в:',
+              links: {
+                title: 'Полезные ссылки:',
+                uni: 'Университет Аалто',
+                ayy: 'Студенческий союз Университета Аалто'
+              }
             },
             home_view: {
               welcome: {
