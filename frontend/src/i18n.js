@@ -62,6 +62,26 @@ i18n
                 link: 'Link to the application form'
               },
               board_info: 'In April 2022 at the annual meeting a new board was elected. The 2022 board members are:'
+            },
+            contacts_view: {
+              general: {
+                title: 'General contact information',
+                registry: 'Registration ID',
+                email: 'Email:'
+              },
+              telegram: {
+                title: 'Join our Telegram chat',
+                p1: 'ARA started as a Telegram chat, which grew into a big community and a distinct student association within the walls of Aalto University.',
+                p2: 'The original Telegram chat still operates and works as the main platform for the association&lsquo;s life and event announcement.',
+                nb: 'NB! please familiarise yourselves with the chat rules!',
+                link: 'Link to the chat'
+              },
+              instagram: {
+                title: 'Follow us on Instagram',
+                p1: 'Our instagram is another platform for keeping our community up-to-date about events and social life of our association.',
+                p2: 'Feel free to follow us and see pictures from the events you attended or could not take part in.',
+                link: 'Link to Instagram profile'
+              }
             }
           }
         }
@@ -111,6 +131,26 @@ i18n
                 link: 'Ссылка на форму заявки'
               },
               board_info: 'В апреле 2022 года на годовом собрании был избран новый состав правления. Члены правления 2022 года:'
+            },
+            contacts_view: {
+              general: {
+                title: 'Общая контактная информация',
+                registry: 'Регистрационный номер',
+                email: 'Эл. адрес:'
+              },
+              telegram: {
+                title: 'Наш Телеграм-чат',
+                p1: 'AРA начиналась как Телеграм-чат, который вырос в большое сообщество и отдельное студенческое объединение в стенах Университета Аалто.',
+                p2: 'Оригинальный Телеграм-чат по-прежнему работает как основная платформа для анонсов жизни и событий ассоциации.',
+                nb: 'NB! пожалуйста, ознакомьтесь с правилами чата!',
+                link: 'Ссылка на чат'
+              },
+              instagram: {
+                title: 'Мы в Инстаграмм',
+                p1: 'Наш инстаграм — это еще одна платформа для информирования нашего сообщества о событиях и общественной жизни нашей ассоциации.',
+                p2: 'Подписывайтесь на нас и смотрите фотографии с мероприятий, которые вы посетили или не смогли посетить.',
+                link: 'Ссылка на Инстаграмм'
+              }
             }
           }
         }
