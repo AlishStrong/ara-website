@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import boardImg from '../../assets/ara_board.jpg';
+import ArticleImage from '../../components/ArticleImage';
 import { Board, BoardClass, BoardJson } from '../../models/Board.model';
 
 const BoardView = () => {
@@ -19,8 +20,8 @@ const BoardView = () => {
   return (
     <div className='grid grid-cols-1'>
       <div id='intro'>
-        <img src={boardImg} className='max-w-[16em] float-left mr-4'></img>
-        <h2 className='font-bold'>{t('ui.about_view.sidebar.board')}</h2>
+        <h2 className='font-bold mb-4'>{t('ui.about_view.sidebar.board')}</h2>
+        <ArticleImage image={boardImg} />
         <p>{t('ui.about_view.board_info')}</p>
       </div>
       <div className='p-4'>
