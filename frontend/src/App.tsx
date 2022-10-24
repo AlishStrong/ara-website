@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Outlet, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
-import AboutSidebar from './components/AboutSidebar';
+import AboutSubmenu from './components/AboutSubmenu';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import AboutAraView from './views/about/AboutAra.view';
@@ -48,9 +48,9 @@ const MainLayout = () => (
 );
 
 const AboutLayout = () => (
-  <div id='about-view' className='grid grid-cols-4 gap-4 px-6 mb/4'>
-    <AboutSidebar />
-    <div id='about-content' className='p-4 rounded-lg shadow col-span-3'>
+  <div id='about-view' className='grid grid-cols-1 gap-4 px-6 md:grid-cols-4'>
+    <AboutSubmenu />
+    <div id='about-content' className='p-4 rounded-lg shadow md:col-span-3'>
       <Outlet />
     </div>
   </div>
